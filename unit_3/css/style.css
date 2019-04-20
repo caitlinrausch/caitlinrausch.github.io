@@ -7,3 +7,6 @@ h1,h3 {
 p {
 	text-align: left;
 }
+img {
+	width: cover;
+}
