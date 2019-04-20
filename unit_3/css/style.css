@@ -2,12 +2,10 @@ body{
 	background-color: white;
 	font-family: Lato, sans-serif;
 	color: gray;
-}
-h1,h3 {
 	text-align: center;
 }
-p {
-	text-align: left;
+h1{
+	background-image: url("hero_image.jpg")
 }
 img {
 	width: cover;
