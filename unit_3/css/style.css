@@ -9,7 +9,6 @@ body{
 	font-family: Lato, sans-serif;
 	color: gray;
 	text-align: center;
-	background-image: url("hero_image.jpg");
 }
 .paragraphs {
 	text-align: left;
@@ -21,7 +20,9 @@ h2 {
 h1 {
 	font-kerning: 100}
 }
-
+h1, h2 {
+	background-image: url("hero_image.jpg");
+}
 a{
 	color: gray;
 }
