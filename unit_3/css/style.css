@@ -1,8 +1,8 @@
 div {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 body{
@@ -25,12 +25,4 @@ h1 {
 a{
 	font-style: normal;
 	color: gray;
-}
-
-div {
-	width: 150px;
-	height: 150px;
-	border: 2px solid black;
-	display: inline-block;
-	margin: 20px;
 }
