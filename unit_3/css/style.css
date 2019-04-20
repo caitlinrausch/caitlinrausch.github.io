@@ -9,6 +9,10 @@ body{
 }
 h2 {
 	font-weight: 200;
+	font-size: 30px;
+}
+h1 {
+	font-kerning: 20px}
 }
 #feathers {
 
