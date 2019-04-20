@@ -3,7 +3,7 @@ body{
 	font-family: Lato, sans-serif;
 	color: gray;
 	text-align: center;
-	background-image: url("hero_image.jpg")
+	background-image: url("hero_image.jpg");
 }
 
 img {
