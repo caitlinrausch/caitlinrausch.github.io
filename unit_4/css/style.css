@@ -1,0 +1,28 @@
+div {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+body{
+	font-family: Lato, sans-serif;
+	color: gray;
+	text-align: center;
+}
+.paragraphs {
+	text-align: left;
+}
+h2 {
+	font-weight: 200;
+	font-size: 31px;
+}
+h1 {
+	font-kerning: 100}
+}
+h1, h2 {
+	background-image: url("hero_image.jpg");
+}
+a{
+	color: gray;
+}

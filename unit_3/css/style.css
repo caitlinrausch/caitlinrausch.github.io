@@ -1,28 +1,54 @@
-div {
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{margin:0;
+	padding:0;
+	box-sizing: border-box;
 }
 
-body{
-	font-family: Lato, sans-serif;
-	color: gray;
+header{
+	width:100%;
+	background-image: url(../images/hero_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	color: white;
 	text-align: center;
 }
-.paragraphs {
-	text-align: left;
-}
-h2 {
-	font-weight: 200;
-	font-size: 31px;
-}
+
 h1 {
-	font-kerning: 100}
+	text-align: center;
+	font-family: 'Mitr', sans-serif;
+	letter-spacing: 2px;
+	font-size: 40px;
 }
-h1, h2 {
-	background-image: url("hero_image.jpg");
+
+h2 {
+	font-weight: 300;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-family: 'Lato', sans-serif;
 }
+
+h3 {
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+	color: #2C95B8;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	padding: 8px 10px;
+	margin: 20px;
+}
+
 a{
 	color: gray;
+}
+
+.three-column .column {
+	width:33.33%;
+	float:left
 }
