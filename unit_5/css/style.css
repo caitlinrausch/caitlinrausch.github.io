@@ -38,17 +38,37 @@ h3 {
 	color: #2C95B8;
 	padding: 10px 10px 15px 15px;
 }
+
+h4 {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	text-align: center;
+}
+
 p{
 	font-family: 'Lato', sans-serif;
 	color: gray;
-	padding: 10px 10px 15px 15px;
+	padding: 10px 15px;
 }
 
 a{
 	color: gray;
 }
 
-.three-column .column {
+.three-column .column{
 	width:33.33%;
 	float:left
+}
+
+.three-column .artwork {
+	width:33.33%;
+	float:center;
+	text-align:center;
+}
+
+img {
+	padding: 50px 20px 10px 20px;
+	width: 100%;
+	float: center;
 }
