@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	width:100%;
+	background-image: url(../images/hero_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Mitr', sans-serif;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+	color: #2C95B8;
+	padding: 10px 10px 15px 15px;
+}
+
+h4 {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	text-align: center;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	padding: 10px 15px;
+}
+
+a{
+	color: gray;
+}
+a:hover{
+	background-color:#E4FAFF;
+}
+
+.three-column:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.three-column .column{
+	width:33.33%;
+	float:left;
+}
+
+.squareart {
+	display: block;
+	text-align:center;
+	padding: 50px 20px 10px 20px;
+	text-decoration:none;
+}
+.squareart h4{
+	padding: 10px;
+}
+.artwork{
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
