@@ -143,6 +143,12 @@ img {
   clear: both;
 }
 
+@media (max-width: 440px) {
+	.two-column .column{
+		width: 100%;
+	}
+}
+
 /*#feathers {
 	background-image: url(../images/hero_image.jpg);
 	margin-top: 20px;
