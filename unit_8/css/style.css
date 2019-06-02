@@ -103,12 +103,15 @@ a{
 	padding: 50px 20px 10px 20px;
 	text-decoration:none;
 }
+
 .squareart:hover{
 	background-color:#E4FAFF;
 }
+
 .squareart h4{
 	padding: 10px;
 }
+
 .artwork{
 	margin-bottom: 20px;
 }
@@ -148,11 +151,6 @@ img {
 		width: 100%;
 	}
 }
-
-/*#feathers {
-	background-image: url(../images/hero_image.jpg);
-	margin-top: 20px;
-}*/
 
 .footer {
 	font-family: 'Lato', sans-serif;
