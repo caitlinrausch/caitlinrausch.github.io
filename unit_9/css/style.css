@@ -70,15 +70,16 @@ p {
 	font-family: 'Lato', sans-serif;
 	color: gray;
 	font-size: 16px;
-	font-weight: 300px;
+	font-weight: 300;
 	padding: 10px 15px;
+	line-height:1.5;
 }
 
 .white {
 	font-family: 'Lato', sans-serif;
 	color: white;
 	font-size: 16px;
-	font-weight: 300px;
+	font-weight: 300;
 	padding: 10px 15px;
 }
 
@@ -146,7 +147,7 @@ img {
   clear: both;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 700px) {
 	.two-column .column{
 		width: 100%;
 	}
@@ -160,4 +161,7 @@ img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	letter-spacing: 0.05em;
 }
+
+.fancybox-infobar {font-family: Lato;}
